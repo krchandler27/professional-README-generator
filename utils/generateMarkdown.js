@@ -39,17 +39,35 @@ function generateMarkdown(data) {
 ${renderLicenseBadge(data.license)}
 
 ## Table of Contents
+* [Project Description](#description)
+* [Installation Instructions](#install)
+* [Usage Information](#usage)
+* [Test Instructions](#test)
+* [Contributors](#contributors)
+* [Contact Me](#questions)
 ${renderLicenseLink(data.license)}
 
-* [Project Description](#description)
-
-## Description
+## Project Description
 ${data.description} 
 
-## Instructions
+## Installation Instructions
+${data.installation}
+
+## Usage Information
+${data.usage}
+
+## Test Instructions
 ${data.testInstructions}
 
+## Contributors
+${data.contributions}
+
+## Questions? | Contact Me
+* ${data.githubUsername}
+* ${data.deployedLink}
+
 ${renderLicenseSection(data.license)}
+
 `;
 }
 
