@@ -40,7 +40,8 @@ const questions = [
         choices: [
             "MIT",
             "Microsoft Public License",
-            "Mozilla Public License 2.0"
+            "Mozilla Public License 2.0", 
+            "None"
         ]
     },
     {
@@ -62,7 +63,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    // fs.writeFile(fileName, generateMarkdown(data))
+    fs.writeFileSync(fileName, generateMarkdown(data))
 }
 
 // TODO: Create a function to initialize app
@@ -73,7 +74,7 @@ function init() {
         )
         .then((answers) => {
             console.log(answers)
-            // writeToFile("README.md", answers)
+            writeToFile("README.md", answers)
         })
 }
 
