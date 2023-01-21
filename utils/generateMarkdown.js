@@ -5,7 +5,7 @@ function renderLicenseBadge(license) {
     return
   }
   else {
-    return `![license](https://img.shields.io/badge/license-${license}-red)`
+    return `![license](https://img.shields.io/badge/license-${license}-blue)`
   }
 }
 
