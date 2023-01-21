@@ -26,12 +26,12 @@ const questions = [
     {
         type: "input",
         name: "contributions",
-        message: "Enter your contribution guidelines:"
+        message: "Enter any additional contributors to your project:"
     },
     {
         type: "input",
         name: "testInstructions",
-        message: "Enter your test instructions:"
+        message: "Enter any test instructions:"
     },
     {
         type: "list",
@@ -40,14 +40,14 @@ const questions = [
         choices: [
             "MIT",
             "Microsoft Public License",
-            "Mozilla Public License 2.0", 
+            "ISC", 
             "None"
         ]
     },
     {
         type: "input",
         name: "githubUsername",
-        message: "Enter your github username:"
+        message: "Enter the link to your gihub profile:"
     },
     {
         type: "input",
@@ -74,7 +74,7 @@ function init() {
         )
         .then((answers) => {
             console.log(answers)
-            writeToFile("README.md", answers)
+            writeToFile("exampleREADME.md", answers)
         })
 }
 
