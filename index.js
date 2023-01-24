@@ -2,6 +2,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
 
+// Questions that will be asked to the user upon typing node index in the terminal.
 const questions = [
     {
         type: "input",
@@ -61,12 +62,12 @@ const questions = [
     }
 ];
 
-// TODO: Create a function to write README file
+// This function writes the README file.
 function writeToFile(fileName, data) {
     fs.writeFileSync(fileName, generateMarkdown(data))
 }
 
-// TODO: Create a function to initialize app
+// This function initializes the app.
 function init() {
     inquirer
         .prompt(
@@ -78,5 +79,5 @@ function init() {
         })
 }
 
-// Function call to initialize app
+// Function call to initialize app.
 init();
