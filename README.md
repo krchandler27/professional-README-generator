@@ -21,7 +21,7 @@ Download my professional-README-generator repo, install node, and install inquir
 This application can be invoked by using the following command: node index. The user will then answer the prompt questions and a professional exampleREADME.md file will be generated. 
 
 ## Walkthrough Tutorial
-[Click Here](https://www.loom.com/share/ce1c200caca14cde919ecb8bfe368f31)
+[Click Here](https://www.loom.com/share/504f3de45dbb4318ba71a18e2f5ca40f)
  to watch the walkthrough tutorial.
 
  ![readme](https://user-images.githubusercontent.com/116527506/213882768-a66ce5f4-0e48-4974-8c02-944e430c397f.JPG)

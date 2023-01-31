@@ -64,7 +64,9 @@ ${data.contributions}
 
 ## Contact Me
 Link to GitHub Profile: ${data.githubUsername}
+
 Link to Deployed Webpage: ${data.deployedLink}
+
 Email: ${data.email}
 
 ${renderLicenseSection(data.license)}

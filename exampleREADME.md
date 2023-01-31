@@ -27,9 +27,12 @@ N/A
 N/A
 
 ## Contact Me
-* Link to Github Page: https://github.com/krchandler27
-* Email: krchandler27@gmail.com
+Link to GitHub Profile: https://github.com/krchandler27
+
+Link to Deployed Webpage: N/A
+
+Email:  krchandler27@gmail.com
 
 ## License
-ISC
+    ISC
 
